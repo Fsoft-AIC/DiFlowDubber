@@ -61,11 +61,7 @@
   <!-- Transparent background -->
   <rect width="1200" height="280" fill="none"/>
 
-  <!-- Subtle grid lines -->
-  <line x1="0" y1="140" x2="1200" y2="140" stroke="#00000008" stroke-width="1"/>
-  <line x1="600" y1="0" x2="600" y2="280" stroke="#00000005" stroke-width="1"/>
-
-  <!-- LEFT WAVEFORM BARS -->
+<!-- LEFT WAVEFORM BARS -->
   <g fill="url(#shimmerGrad2)" opacity="0.75">
     <rect class="bar2 b1"  x="80"  y="90"  width="10" height="100" rx="5" transform-origin="85 190"/>
     <rect class="bar2 b2"  x="100" y="110" width="10" height="80"  rx="5" transform-origin="105 190"/>
