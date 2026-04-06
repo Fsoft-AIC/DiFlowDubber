@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="1200" height="280">
+  <defs>
+    <linearGradient id="bgGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0f4ff"/>
+      <stop offset="50%" style="stop-color:#faf5ff"/>
+      <stop offset="100%" style="stop-color:#fff0f9"/>
+    </linearGradient>
+    <linearGradient id="shimmerGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#4f46e5"/>
+      <stop offset="30%"  stop-color="#7c3aed"/>
+      <stop offset="60%"  stop-color="#db2777"/>
+      <stop offset="100%" stop-color="#4f46e5"/>
+      <animate attributeName="x1" values="0%;-100%;0%" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="100%;200%;100%" dur="4s" repeatCount="indefinite"/>
+    </linearGradient>
+    <filter id="glow2">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softglow2">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .bar2 { transform-origin: bottom center; animation: wave linear infinite; }
+
+    .b1  { animation-name: wave1; animation-duration: 0.9s;  animation-delay: 0.0s; }
+    .b2  { animation-name: wave2; animation-duration: 1.1s;  animation-delay: 0.1s; }
+    .b3  { animation-name: wave3; animation-duration: 0.8s;  animation-delay: 0.2s; }
+    .b4  { animation-name: wave4; animation-duration: 1.3s;  animation-delay: 0.0s; }
+    .b5  { animation-name: wave5; animation-duration: 0.7s;  animation-delay: 0.3s; }
+    .b6  { animation-name: wave1; animation-duration: 1.0s;  animation-delay: 0.15s; }
+    .b7  { animation-name: wave3; animation-duration: 1.2s;  animation-delay: 0.05s; }
+    .b8  { animation-name: wave2; animation-duration: 0.85s; animation-delay: 0.25s; }
+    .b9  { animation-name: wave4; animation-duration: 1.1s;  animation-delay: 0.1s; }
+    .b10 { animation-name: wave5; animation-duration: 0.95s; animation-delay: 0.2s; }
+    .b11 { animation-name: wave2; animation-duration: 1.05s; animation-delay: 0.3s; }
+    .b12 { animation-name: wave1; animation-duration: 0.75s; animation-delay: 0.0s; }
+
+    @keyframes wave1 { 0%,100%{transform:scaleY(0.3)} 50%{transform:scaleY(1.0)} }
+    @keyframes wave2 { 0%,100%{transform:scaleY(0.6)} 50%{transform:scaleY(0.2)} }
+    @keyframes wave3 { 0%,100%{transform:scaleY(0.8)} 25%{transform:scaleY(0.2)} 75%{transform:scaleY(1.0)} }
+    @keyframes wave4 { 0%,100%{transform:scaleY(0.4)} 40%{transform:scaleY(0.9)} }
+    @keyframes wave5 { 0%,100%{transform:scaleY(1.0)} 50%{transform:scaleY(0.3)} }
+
+    .title-text2 { animation: pulse2 3s ease-in-out infinite; }
+    @keyframes pulse2 {
+      0%,100% { filter: url(#glow2); opacity: 1; }
+      50%      { filter: url(#softglow2); opacity: 0.85; }
+    }
+  </style>
+
+  <!-- Transparent background -->
+  <rect width="1200" height="280" fill="none"/>
+
+  <!-- Subtle grid lines -->
+  <line x1="0" y1="140" x2="1200" y2="140" stroke="#00000008" stroke-width="1"/>
+  <line x1="600" y1="0" x2="600" y2="280" stroke="#00000005" stroke-width="1"/>
+
+  <!-- LEFT WAVEFORM BARS -->
+  <g fill="url(#shimmerGrad2)" opacity="0.75">
+    <rect class="bar2 b1"  x="80"  y="90"  width="10" height="100" rx="5" transform-origin="85 190"/>
+    <rect class="bar2 b2"  x="100" y="110" width="10" height="80"  rx="5" transform-origin="105 190"/>
+    <rect class="bar2 b3"  x="120" y="100" width="10" height="90"  rx="5" transform-origin="125 190"/>
+    <rect class="bar2 b4"  x="140" y="120" width="10" height="70"  rx="5" transform-origin="145 190"/>
+    <rect class="bar2 b5"  x="160" y="95"  width="10" height="95"  rx="5" transform-origin="165 190"/>
+    <rect class="bar2 b6"  x="180" y="115" width="10" height="75"  rx="5" transform-origin="185 190"/>
+  </g>
+
+  <!-- RIGHT WAVEFORM BARS -->
+  <g fill="url(#shimmerGrad2)" opacity="0.75">
+    <rect class="bar2 b7"  x="1010" y="115" width="10" height="75"  rx="5" transform-origin="1015 190"/>
+    <rect class="bar2 b8"  x="1030" y="95"  width="10" height="95"  rx="5" transform-origin="1035 190"/>
+    <rect class="bar2 b9"  x="1050" y="120" width="10" height="70"  rx="5" transform-origin="1055 190"/>
+    <rect class="bar2 b10" x="1070" y="100" width="10" height="90"  rx="5" transform-origin="1075 190"/>
+    <rect class="bar2 b11" x="1090" y="110" width="10" height="80"  rx="5" transform-origin="1095 190"/>
+    <rect class="bar2 b12" x="1110" y="90"  width="10" height="100" rx="5" transform-origin="1115 190"/>
+  </g>
+
+  <!-- MAIN TITLE -->
+  <text
+    class="title-text2"
+    x="600"
+    y="158"
+    font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+    font-size="100"
+    font-weight="900"
+    fill="url(#shimmerGrad2)"
+    text-anchor="middle"
+    dominant-baseline="middle"
+    letter-spacing="-2"
+  >DiFlowDubber</text>
+</svg>
