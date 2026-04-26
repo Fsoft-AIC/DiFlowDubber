@@ -15,8 +15,7 @@
 
 <sup>†</sup> Corresponding author
 
-<a href='https://cvpr.thecvf.com/Conferences/2026'><img src='https://img.shields.io/badge/CVPR-2026_Findings-blue'></a> <a href='https://arxiv.org/abs/2603.14267'><img src='https://img.shields.io/badge/ArXiv-2603.14267-red'></a> <a href='https://nngocson2002.github.io/projects/diflowdubber/'><img src='https://img.shields.io/badge/Project_Page-Personal-blue'></a> <a href='https://fsoft-aic.github.io/SonNN45-Demo/projects/diflowdubber/'><img src='https://img.shields.io/badge/Project_Page-FPT-orange'></a>
-
+<a href='https://cvpr.thecvf.com/Conferences/2026'><img src='https://img.shields.io/badge/CVPR-2026_Findings-blue'></a> <a href='https://arxiv.org/abs/2603.14267'><img src='https://img.shields.io/badge/ArXiv-2603.14267-red'></a> <a href='https://fsoft-aic.github.io/SonNN45-Demo/projects/diflowdubber/'><img src='https://img.shields.io/badge/Demo-Page-blue'></a>
 </div>
 
 ## 🎬 Framework
