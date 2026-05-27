@@ -26,3 +26,16 @@
 
 ## 📦 Code Release
 The official code will be released soon. Stay tuned!
+
+## 📝 Citation
+If you find this work useful, please cite:
+```bibtex
+@InProceedings{Nguyen_2026_CVPR,
+    author    = {Nguyen, Ngoc-Son and Tran, Thanh V. T. and Choi, Jeongsoo and Huynh-Nguyen, Hieu-Nghia and Hy, Truong-Son and Nguyen, Van},
+    title     = {DiFlowDubber: Discrete Flow Matching for Automated Video Dubbing via Cross-Modal Alignment and Synchronization},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Findings},
+    month     = {June},
+    year      = {2026},
+    pages     = {5838-5848}
+}
+```
